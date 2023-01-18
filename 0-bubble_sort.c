@@ -37,6 +37,7 @@ void bubble_sort(int *array, size_t size)
  * @array: the array
  * @before: the first index
  * @after: the second index
+ * @size: the size of the array
  * Return: nothing
  */
 void swap(int *array, int before, int after, int size)
