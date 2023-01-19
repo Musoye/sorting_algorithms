@@ -1,5 +1,5 @@
 #include "sort.h"
-/*
+/**
  * selection_sort - selection algorithm sort
  * @array: the array
  * @size: the size of the array
@@ -9,6 +9,8 @@ void selection_sort(int *array, size_t size)
 {
 	unsigned int i, j, min, holder;
 
+	if (size < 2)
+		return;
 	for (i = 0; i < size - 1; i++)
 	{
 		min = i;
